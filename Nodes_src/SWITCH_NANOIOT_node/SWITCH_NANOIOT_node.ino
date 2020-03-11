@@ -2,7 +2,7 @@
 #include <PubSubClient.h>
 
 
-#define TM 200 /* Milisegundos entre transmision */
+#define TM 500 /* Milisegundos entre transmision */
 
 /* Definiciones de los nombres de los topics de comunicacion */
 
