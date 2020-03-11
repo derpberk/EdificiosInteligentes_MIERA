@@ -11,10 +11,10 @@
 #define MQTT_TOPIC_OUT_STATE "0000000002/Switch/state"
 
 /* Lets introduce our password and ssid */
-const char* ssid = "Redmi";        // your network SSID (name)
-const char* pass = "123456789";    // your network password (use for WPA, or use as key for WEP)
-const char* mqttServer = "localhost";
-const char* common_topic_msg = MQTT_TOPIC_OUT_COMMON;
+const char* ssid = "MIWIFI_2G_69FZ";        // your network SSID (name)
+const char* pass = "VHqTa9kt";    // your network password (use for WPA, or use as key for WEP)
+const char* mqttServer = "192.168.1.134";
+const char* common_topic_msg = MQTT_TOPIC_OUT_STATE;
 
 int status = WL_IDLE_STATUS;
 long lastMsg = 0;
@@ -83,7 +83,6 @@ void setup() {
  
   /* Nos conectamos al cliente MQTT */
   client.setServer(mqttServer, 1883);
-  client.setCallback(callback);
   
 }
 
@@ -101,9 +100,6 @@ void reconnect()
     if (client.connect(clientId.c_str())) 
     {
       Serial.println("connected");
-      // ... nos suscribimos a los topics
-      /* Escribir aqui los topics */
-      client.subscribe("topic_de_entrada");
     } else 
     {
       Serial.print("ERROR, rc=");
@@ -133,7 +129,7 @@ int read_switch(void){
     
   }
 
-  return state_now
+  return state_now;
 }
 
 void loop() 
