@@ -1,4 +1,4 @@
-import context  # Ensures paho is in PYTHONPATH
+#import context  # Ensures paho is in PYTHONPATH
 import paho
 import paho.mqtt.client as mqtt
 import time
@@ -11,10 +11,17 @@ def on_connect(mqttc, obj, flags, rc):
     else:
         print("Ha fallado la conexion")
 
+# When we receive a publishing
 def on_message(mqttc, obj, msg):
     fields = []
-    fields = (str(msg.payload)).split('_')
-    dicc[fields[0]] = 1
+    fields = (str(msg.payload)).split('/')
+    # Field 0 -> ID
+    # Field 1 -> Node Type
+    # Field 2,3 ... -> Topics
+    node_status = 1
+    dicc_frame = fields[1:]
+    dicc_frame.append(node_status) 
+    dicc[fields[0]] = dicc_frame
     
 Connected = False
 
@@ -49,18 +56,41 @@ mqttc.loop_start()
 while True:
     nodelist = []
     print('Diccionario sin actualizar')
-    print(dicc)
+    #print(dicc)
     # Calculate inactive nodes and remove them from dicc
     for node in dicc:
-        if dicc[node] == 0:
-            nodelist.append(node)
-        else:
-            dicc[node] = 0
-    for item in nodelist:
-        dicc.pop(item, None)
+
+        dicc_frame = dicc[node] # Catch the current frame of current Key
+
+        if dicc_frame[-1] == 0: # If Active field is disable
+            dicc.pop(node,None) # EXTERMINATE!! (from the dicc :D)
+
     # Dictionary update
     print('')
     print('Diccionario actualizado')
-    print(dicc)
+
+    # Conformation of the stdout msg #
+    header = "<p><br></p>\n"
+    body = ""
+    content = ""
+    out_msg = ""
+
+    for node in dicc:
+        dicc_frame = dicc[node]
+        body = "<p>Nodo " + str(node) + " - " + str(dicc_frame[0]) + ": </p>\n"
+        content = '<p>&nbsp;' + "Topics: " + "</p>\n"
+
+        for i in range(1,len(dicc_frame)-1): 
+            content += "&nbsp;&nbsp;" + str(node) + "/" + str(dicc_frame[0]) + "/" +  str(dicc_frame[i]) + "</p>\n" 
+        content += "\n"
+
+        out_msg += header + body + content
+
+    # Open the file where we will write our dicc
+    print(out_msg)
+    f = open("active_node_list.txt", "w")
+    f.write(out_msg)
+    f.close()
+    print("printed!")
     # 10 sec sleep
     time.sleep(10)
