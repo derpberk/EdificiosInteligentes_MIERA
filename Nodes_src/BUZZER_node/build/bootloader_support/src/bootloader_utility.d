@@ -1,6 +1,6 @@
 src/bootloader_utility.o: \
  /home/esp/ESP8266_RTOS_SDK/components/bootloader_support/src/bootloader_utility.c \
- /home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h \
+ /home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/param.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/config.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/machine/ieeefp.h \
@@ -49,7 +49,7 @@ src/bootloader_utility.o: \
  /home/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_system.h \
  /home/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_idf_version.h
 
-/home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h:
+/home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h:
 
 /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/param.h:
 

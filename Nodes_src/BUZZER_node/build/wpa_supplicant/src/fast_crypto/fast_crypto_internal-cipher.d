@@ -1,6 +1,6 @@
 src/fast_crypto/fast_crypto_internal-cipher.o: \
  /home/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/src/fast_crypto/fast_crypto_internal-cipher.c \
- /home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h \
+ /home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h \
  /home/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/include/crypto/common.h \
  /home/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/port/include/os.h \
  /home/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_types.h \
@@ -74,7 +74,7 @@ src/fast_crypto/fast_crypto_internal-cipher.o: \
  /home/esp/ESP8266_RTOS_SDK/components/mbedtls/port/esp8266/include/aes_alt.h \
  /home/esp/ESP8266_RTOS_SDK/components/util/include/esp_aes.h
 
-/home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h:
+/home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h:
 
 /home/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/include/crypto/common.h:
 

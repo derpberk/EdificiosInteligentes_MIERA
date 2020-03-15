@@ -29,9 +29,9 @@
 
 // Update these with values suitable for your network.
 
-const char* ssid = "sagemcom99F0";
-const char* password = "HTNYYT4GZMYQDM";
-const char* mqtt_server = "192.168.0.18";
+const char* ssid = "MIWIFI_2G_69FZ";
+const char* password = "VHqTa9kt";
+const char* mqtt_server = "192.168.1.134";
 
 WiFiClient espClient;
 PubSubClient client(espClient);

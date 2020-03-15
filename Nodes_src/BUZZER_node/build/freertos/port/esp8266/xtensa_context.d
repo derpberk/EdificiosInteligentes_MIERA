@@ -16,7 +16,7 @@ port/esp8266/xtensa_context.o: \
  /home/esp/ESP8266_RTOS_SDK/components/esp8266/include/xtensa/xtruntime-frames.h \
  /home/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/xtensa_timer.h \
  /home/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
- /home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h \
+ /home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h \
  /home/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/xtensa_rtos.h
 
 /home/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/xtensa_rtos.h:
@@ -51,7 +51,7 @@ port/esp8266/xtensa_context.o: \
 
 /home/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h:
 
-/home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h:
+/home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h:
 
 /home/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/xtensa_rtos.h:
 /home/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/xtensa_context.S:

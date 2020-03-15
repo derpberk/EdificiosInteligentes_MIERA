@@ -8,7 +8,7 @@ esp-mqtt/lib/platform_idf.o: \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/features.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/_intsup.h \
  /home/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
- /home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h \
+ /home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdlib.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/machine/ieeefp.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/_ansi.h \
@@ -114,7 +114,7 @@ esp-mqtt/lib/platform_idf.o: \
 
 /home/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h:
 
-/home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h:
+/home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h:
 
 /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdlib.h:
 

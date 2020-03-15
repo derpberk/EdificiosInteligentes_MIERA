@@ -1,6 +1,6 @@
 src/crypto/aes-cbc.o: \
  /home/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/src/crypto/aes-cbc.c \
- /home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h \
+ /home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/string.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/_ansi.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/newlib.h \
@@ -20,7 +20,7 @@ src/crypto/aes-cbc.o: \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdint.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/_intsup.h
 
-/home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h:
+/home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h:
 
 /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/string.h:
 

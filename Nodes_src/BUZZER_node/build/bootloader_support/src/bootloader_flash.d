@@ -1,6 +1,6 @@
 src/bootloader_flash.o: \
  /home/esp/ESP8266_RTOS_SDK/components/bootloader_support/src/bootloader_flash.c \
- /home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h \
+ /home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdint.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/machine/_default_types.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/features.h \
@@ -31,7 +31,7 @@ src/bootloader_flash.o: \
  /home/esp/ESP8266_RTOS_SDK/components/spi_flash/include/esp_spi_flash.h \
  /home/esp/ESP8266_RTOS_SDK/components/spi_flash/include/spi_flash.h
 
-/home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h:
+/home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h:
 
 /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdint.h:
 

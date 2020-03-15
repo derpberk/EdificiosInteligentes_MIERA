@@ -27,7 +27,7 @@ port/randombytes_esp8266.o: \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/reent.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/stdio.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/assert.h \
- /home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h \
+ /home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h \
  /home/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_idf_version.h
 
 /home/esp/ESP8266_RTOS_SDK/components/libsodium/port/randombytes_default.h:
@@ -84,7 +84,7 @@ port/randombytes_esp8266.o: \
 
 /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/assert.h:
 
-/home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h:
+/home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h:
 
 /home/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_idf_version.h:
 /home/esp/ESP8266_RTOS_SDK/components/libsodium/port/randombytes_esp8266.c:

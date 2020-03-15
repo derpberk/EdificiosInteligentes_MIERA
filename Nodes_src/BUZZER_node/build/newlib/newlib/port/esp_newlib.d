@@ -1,6 +1,6 @@
 newlib/port/esp_newlib.o: \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/port/esp_newlib.c \
- /home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h \
+ /home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/reent.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/reent.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/_ansi.h \
@@ -28,7 +28,7 @@ newlib/port/esp_newlib.o: \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/unistd.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/unistd.h
 
-/home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h:
+/home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h:
 
 /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/reent.h:
 

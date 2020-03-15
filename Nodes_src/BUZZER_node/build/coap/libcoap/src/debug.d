@@ -3,7 +3,7 @@ libcoap/src/debug.o: \
  /home/esp/ESP8266_RTOS_SDK/components/coap/port/include/coap_config.h \
  /home/esp/ESP8266_RTOS_SDK/components/coap/port/include/coap_config_posix.h \
  /home/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/posix/sys/socket.h \
- /home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h \
+ /home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h \
  /home/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/sockets.h \
  /home/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/opt.h \
  /home/esp/ESP8266_RTOS_SDK/components/lwip/port/esp8266/include/lwipopts.h \
@@ -88,7 +88,7 @@ libcoap/src/debug.o: \
 
 /home/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/posix/sys/socket.h:
 
-/home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h:
+/home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h:
 
 /home/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/sockets.h:
 

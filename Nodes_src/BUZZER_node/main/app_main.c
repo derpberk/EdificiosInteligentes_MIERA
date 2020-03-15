@@ -58,20 +58,27 @@ static esp_err_t mqtt_event_handler(esp_mqtt_event_handle_t event)
     switch (event->event_id) {
         case MQTT_EVENT_CONNECTED:
             ESP_LOGI(TAG, "MQTT_EVENT_CONNECTED");
-            msg_id = esp_mqtt_client_publish(client, "/topic/qos1", "data_3", 0, 1, 0);
-            ESP_LOGI(TAG, "sent publish successful, msg_id=%d", msg_id);
 
-            msg_id = esp_mqtt_client_subscribe(client, "/topic/qos0", 0);
+            //msg_id = esp_mqtt_client_publish(client, "/topic/qos1", "data_3", 0, 1, 0);
+            //ESP_LOGI(TAG, "sent publish successful, msg_id=%d", msg_id);
+
+            //msg_id = esp_mqtt_client_subscribe(client, "/topic/qos0", 0);
+            //ESP_LOGI(TAG, "sent subscribe successful, msg_id=%d", msg_id);
+
+            //msg_id = esp_mqtt_client_subscribe(client, "/topic/qos1", 1);
+            //ESP_LOGI(TAG, "sent subscribe successful, msg_id=%d", msg_id);
+
+            //msg_id = esp_mqtt_client_subscribe(client, "/alarma", 0);
+            //ESP_LOGI(TAG, "Suscrito al topic alarma");
+
+            //msg_id = esp_mqtt_client_unsubscribe(client, "/topic/qos1");
+            //ESP_LOGI(TAG, "sent unsubscribe successful, msg_id=%d", msg_id);
+
+            msg_id = esp_mqtt_client_subscribe(client, "0000000004/buzzer/state", 0);
+            ESP_LOGI(TAG, "sent subscribe successful, msg_id=%d", msg_id);
+            msg_id = esp_mqtt_client_subscribe(client, "0000000004/buzzer/mode", 0);
             ESP_LOGI(TAG, "sent subscribe successful, msg_id=%d", msg_id);
 
-            msg_id = esp_mqtt_client_subscribe(client, "/topic/qos1", 1);
-            ESP_LOGI(TAG, "sent subscribe successful, msg_id=%d", msg_id);
-
-            msg_id = esp_mqtt_client_subscribe(client, "/alarma", 0);
-            ESP_LOGI(TAG, "Suscrito al topic alarma");
-
-            msg_id = esp_mqtt_client_unsubscribe(client, "/topic/qos1");
-            ESP_LOGI(TAG, "sent unsubscribe successful, msg_id=%d", msg_id);
             break;
         case MQTT_EVENT_DISCONNECTED:
             ESP_LOGI(TAG, "MQTT_EVENT_DISCONNECTED");
@@ -92,24 +99,35 @@ static esp_err_t mqtt_event_handler(esp_mqtt_event_handle_t event)
             ESP_LOGI(TAG, "MQTT_EVENT_DATA");
             printf("TOPIC=%.*s\r\n", event->topic_len, event->topic);
             printf("DATA=%.*s\r\n", event->data_len, event->data);
-	    const char* topic_alarma = "/alarma";
-	    int res= strncmp(topic_alarma, event->topic,4);
-	    //printf("El resultado de la comparacion es: %d \r\n", res );
+	    const char* topic_alarma = "0000000004/buzzer/state";
+	    int res= strncmp(topic_alarma, event->topic,23);
 	    if (res==0){
-		    printf("Se ha recibido un mensaje del topic alarma \r\n");
+		    printf("Se ha recibido un mensaje del topic state \r\n");
 		    char dato = *(event->data);
-		    //printf("El contenido de alarma es %c \r\n", dato);
 		    if ((int)dato == 48) {
 			printf("Se ha recibido un 0 \r\n");
 			alarm_flag=0;
 			alarm_state=0;
-                        //gpio_set_level(GPIO_LED, 1);
 		    }
 		    if ((int)dato == 49) {
 			printf("Se ha recibido un 1 \r\n");
 			alarm_flag=1;
 			alarm_state=1;
-                        //gpio_set_level(GPIO_LED, 0);
+		    }
+
+	    }
+	    const char* topic_modo = "0000000004/buzzer/mode";
+	    res= strncmp(topic_modo, event->topic,22);
+	    if (res==0){
+		    printf("Se ha recibido un mensaje del topic mode \r\n");
+		    char dato = *(event->data);
+		    if ((int)dato == 48) {
+			printf("Se ha recibido un 0 \r\n");
+			mode=0;
+		    }
+		    if ((int)dato == 49) {
+			printf("Se ha recibido un 1 \r\n");
+			mode=1;
 		    }
 
 	    }
@@ -243,7 +261,7 @@ void app_main()
     //configure GPIO with the given settings
     gpio_config(&io_conf);
 
-    blink_alarm(4,1000);
+    blink_alarm(8,200);
 
     nvs_flash_init();
     wifi_init();
@@ -253,6 +271,7 @@ void app_main()
     printf("Se ha pasado la sentencia de comienzo de mqtt\r\n");
     vTaskDelay(2000 / portTICK_RATE_MS); // Waiting for broker connection
     int contador=0;
+    int contador2=0;
     ALARM_ON
     while(1){
             if (mode==0){
@@ -270,28 +289,34 @@ void app_main()
 		    } 
             }
             else if(mode==1){
-		    /** In this mode, the alarm blink only 2 times   **/
+		    /** In this mode, the alarm blink only 4 times   **/
 		    if (alarm_flag==1){
-			    if (contador%2 == 0){
+			    contador2=0;
+			    alarm_flag=0;
+		    }
+		    if (contador2<8){
+			    if (contador2%2 == 0){
 				    ALARM_ON
 			    }
 			    else {
 				    ALARM_OFF
 			    }
-			    if (contador==3) alarm_flag=0;
+			    contador2++;
 		    }
 		    else {
 			    ALARM_OFF
 		    } 
             }
 
-	    if (contador == 3){
+	    if (contador == 7){
 		    contador=0;
 		    printf("Se va a enviar un msg a public_topic\r\n");
 		    esp_mqtt_client_publish(client, "public_topic", "0000000004_buzzer_mode_state", 10, 1, 0);
 	    }
+	    else {
+		    contador++;
+	    }
 
-	    contador++;
-            vTaskDelay(250 / portTICK_RATE_MS); // Waiting for broker connection
+            vTaskDelay(125 / portTICK_RATE_MS); // Waiting for broker connection
     }
 }

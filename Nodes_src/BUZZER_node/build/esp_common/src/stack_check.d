@@ -16,7 +16,7 @@ src/stack_check.o: \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/cdefs.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/machine/stdlib.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/alloca.h \
- /home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h \
+ /home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h \
  /home/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_system.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdint.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/_intsup.h \
@@ -61,7 +61,7 @@ src/stack_check.o: \
 
 /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/alloca.h:
 
-/home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h:
+/home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h:
 
 /home/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_system.h:
 

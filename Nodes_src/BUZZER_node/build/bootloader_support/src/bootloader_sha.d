@@ -1,6 +1,6 @@
 src/bootloader_sha.o: \
  /home/esp/ESP8266_RTOS_SDK/components/bootloader_support/src/bootloader_sha.c \
- /home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h \
+ /home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h \
  /home/esp/ESP8266_RTOS_SDK/components/bootloader_support/include_priv/bootloader_sha.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdint.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/machine/_default_types.h \
@@ -37,7 +37,7 @@ src/bootloader_sha.o: \
  /home/esp/ESP8266_RTOS_SDK/components/mbedtls/port/esp8266/include/sha256_alt.h \
  /home/esp/ESP8266_RTOS_SDK/components/util/include/esp_sha.h
 
-/home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h:
+/home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h:
 
 /home/esp/ESP8266_RTOS_SDK/components/bootloader_support/include_priv/bootloader_sha.h:
 

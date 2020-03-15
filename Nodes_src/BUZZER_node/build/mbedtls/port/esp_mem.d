@@ -2,7 +2,7 @@ port/esp_mem.o: \
  /home/esp/ESP8266_RTOS_SDK/components/mbedtls/port/esp_mem.c \
  /home/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_attr.h \
  /home/esp/ESP8266_RTOS_SDK/components/heap/include/esp_heap_caps.h \
- /home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h \
+ /home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdint.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/machine/_default_types.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/features.h \
@@ -35,7 +35,7 @@ port/esp_mem.o: \
 
 /home/esp/ESP8266_RTOS_SDK/components/heap/include/esp_heap_caps.h:
 
-/home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h:
+/home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h:
 
 /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdint.h:
 

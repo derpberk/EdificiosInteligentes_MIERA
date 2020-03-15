@@ -30,7 +30,7 @@ newlib/port/time.o: \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/cdefs.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/stdio.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/assert.h \
- /home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h \
+ /home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h \
  /home/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_idf_version.h \
  /home/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_timer.h \
  /home/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
@@ -126,7 +126,7 @@ newlib/port/time.o: \
 
 /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/assert.h:
 
-/home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h:
+/home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h:
 
 /home/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_idf_version.h:
 

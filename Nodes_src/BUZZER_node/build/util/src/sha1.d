@@ -20,7 +20,7 @@ src/sha1.o: /home/esp/ESP8266_RTOS_SDK/components/util/src/sha1.c \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/string.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/string.h \
  /home/esp/ESP8266_RTOS_SDK/components/util/include/util_assert.h \
- /home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h \
+ /home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/assert.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/errno.h \
  /home/esp/ESP8266_RTOS_SDK/components/util/include/esp_sha.h \
@@ -74,7 +74,7 @@ src/sha1.o: /home/esp/ESP8266_RTOS_SDK/components/util/src/sha1.c \
 
 /home/esp/ESP8266_RTOS_SDK/components/util/include/util_assert.h:
 
-/home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h:
+/home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h:
 
 /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/assert.h:
 

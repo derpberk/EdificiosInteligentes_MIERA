@@ -1,7 +1,7 @@
 newlib/port/select.o: \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/port/select.c \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/port/include/sys/select.h \
- /home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h \
+ /home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h \
  /home/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/sockets.h \
  /home/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/opt.h \
  /home/esp/ESP8266_RTOS_SDK/components/lwip/port/esp8266/include/lwipopts.h \
@@ -57,7 +57,7 @@ newlib/port/select.o: \
 
 /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/port/include/sys/select.h:
 
-/home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h:
+/home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h:
 
 /home/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/sockets.h:
 

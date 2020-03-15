@@ -25,7 +25,7 @@ esp_http_client.o: \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/sched.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/stdio.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/assert.h \
- /home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h \
+ /home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h \
  /home/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_idf_version.h \
  /home/esp/ESP8266_RTOS_SDK/components/log/include/esp_log.h \
  /home/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
@@ -188,7 +188,7 @@ esp_http_client.o: \
 
 /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/assert.h:
 
-/home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h:
+/home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h:
 
 /home/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_idf_version.h:
 

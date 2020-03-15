@@ -1,6 +1,6 @@
 source/esp_wifi.o: \
  /home/esp/ESP8266_RTOS_SDK/components/esp8266/source/esp_wifi.c \
- /home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h \
+ /home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h \
  /home/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_libc.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdint.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/machine/_default_types.h \
@@ -90,7 +90,7 @@ source/esp_wifi.o: \
  /home/esp/ESP8266_RTOS_SDK/components/esp8266/source/phy.h \
  /home/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_phy_init.h
 
-/home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h:
+/home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h:
 
 /home/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_libc.h:
 

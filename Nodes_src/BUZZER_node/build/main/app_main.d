@@ -1,4 +1,5 @@
-app_main.o: /home/esp/proyecto-sdaa/alarma/main/app_main.c \
+app_main.o: \
+ /home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/main/app_main.c \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdio.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/_ansi.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/newlib.h \
@@ -24,7 +25,7 @@ app_main.o: /home/esp/proyecto-sdaa/alarma/main/app_main.c \
  /home/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_wifi.h \
  /home/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h \
  /home/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
- /home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h \
+ /home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdlib.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/machine/stdlib.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/alloca.h \
@@ -159,7 +160,7 @@ app_main.o: /home/esp/proyecto-sdaa/alarma/main/app_main.c \
 
 /home/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h:
 
-/home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h:
+/home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h:
 
 /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdlib.h:
 
@@ -326,4 +327,4 @@ app_main.o: /home/esp/proyecto-sdaa/alarma/main/app_main.c \
 /home/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h:
 
 /home/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/gpio_register.h:
-/home/esp/proyecto-sdaa/alarma/main/./app_main.c:
+/home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/main/./app_main.c:

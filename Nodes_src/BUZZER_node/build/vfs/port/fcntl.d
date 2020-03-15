@@ -1,5 +1,5 @@
 port/fcntl.o: /home/esp/ESP8266_RTOS_SDK/components/vfs/port/fcntl.c \
- /home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h \
+ /home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/fcntl.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/fcntl.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/_default_fcntl.h \
@@ -57,7 +57,7 @@ port/fcntl.o: /home/esp/ESP8266_RTOS_SDK/components/vfs/port/fcntl.c \
  /home/esp/ESP8266_RTOS_SDK/components/lwip/lwip/src/include/lwip/errno.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/errno.h
 
-/home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h:
+/home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h:
 
 /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/fcntl.h:
 

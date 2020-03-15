@@ -8,7 +8,7 @@ library/ssl_stack.o: \
  /home/esp/ESP8266_RTOS_SDK/components/openssl/include/internal/x509_vfy.h \
  /home/esp/ESP8266_RTOS_SDK/components/openssl/include/internal/ssl_dbg.h \
  /home/esp/ESP8266_RTOS_SDK/components/openssl/include/platform/ssl_opt.h \
- /home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h \
+ /home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h \
  /home/esp/ESP8266_RTOS_SDK/components/openssl/include/platform/ssl_port.h \
  /home/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_types.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/cdefs.h \
@@ -53,7 +53,7 @@ library/ssl_stack.o: \
 
 /home/esp/ESP8266_RTOS_SDK/components/openssl/include/platform/ssl_opt.h:
 
-/home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h:
+/home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h:
 
 /home/esp/ESP8266_RTOS_SDK/components/openssl/include/platform/ssl_port.h:
 

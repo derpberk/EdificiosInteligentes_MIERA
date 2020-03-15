@@ -17,7 +17,7 @@ source/startup.o: \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/lock.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/cdefs.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/string.h \
- /home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h \
+ /home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h \
  /home/esp/ESP8266_RTOS_SDK/components/nvs_flash/include/nvs_flash.h \
  /home/esp/ESP8266_RTOS_SDK/components/nvs_flash/include/nvs.h \
  /home/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_err.h \
@@ -131,7 +131,7 @@ source/startup.o: \
 
 /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/string.h:
 
-/home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h:
+/home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h:
 
 /home/esp/ESP8266_RTOS_SDK/components/nvs_flash/include/nvs_flash.h:
 

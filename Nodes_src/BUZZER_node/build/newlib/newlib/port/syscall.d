@@ -1,6 +1,6 @@
 newlib/port/syscall.o: \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/port/syscall.c \
- /home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h \
+ /home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdio.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/_ansi.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/newlib.h \
@@ -65,7 +65,7 @@ newlib/port/syscall.o: \
  /home/esp/ESP8266_RTOS_SDK/components/log/include/esp_log.h \
  /home/esp/ESP8266_RTOS_SDK/components/log/include/esp_log_internal.h
 
-/home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h:
+/home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h:
 
 /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdio.h:
 

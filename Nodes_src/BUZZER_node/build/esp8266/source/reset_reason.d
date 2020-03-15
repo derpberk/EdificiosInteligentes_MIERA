@@ -1,6 +1,6 @@
 source/reset_reason.o: \
  /home/esp/ESP8266_RTOS_SDK/components/esp8266/source/reset_reason.c \
- /home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h \
+ /home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/string.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/_ansi.h \
  /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/newlib.h \
@@ -40,7 +40,7 @@ source/reset_reason.o: \
  /home/esp/ESP8266_RTOS_SDK/components/heap/include/esp_heap_caps.h \
  /home/esp/ESP8266_RTOS_SDK/components/heap/port/esp8266/include/esp_heap_config.h
 
-/home/esp/proyecto-sdaa/alarma/build/include/sdkconfig.h:
+/home/esp/EdificiosInteligentes_MIERA/Nodes_src/BUZZER_node/build/include/sdkconfig.h:
 
 /home/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/string.h:
 
